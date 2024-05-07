@@ -1,0 +1,58 @@
+<h1>hello angular {{title}}</h1>
+<div id="bgi">
+  <div class="container mt-3 " style="justify-content: center;">
+    <h2>Login form</h2>
+    <form action="" class="form" name="login">
+      <div class="mb-3 mt-3">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="mb-3">
+        <label for="pwd">Confirm-Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter Confirm-password" name="pswd1" >
+        
+      </div>
+      <button type="submit" class="btn btn-primary" id="btn" (click)="submit()">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- codepen ... practice .....
+<body>
+  outer div for better design
+    <div class="outer">
+        <h1>Login Form</h1>
+        
+        <div class="inner">
+            <form>
+            
+            <p><input class="in" type="email" placeholder="Type your Email"/><i class="fa-solid fa-user"></i></p>
+            
+            <p><input class="in" type="password" placeholder="Type your Password"/><i class="fa-solid fa-lock"></i></p>
+            
+            <p>Already have an account <a href="#">Forget Password?</a></p>
+            To do: normal login button with animating border 
+            <p><input class="btn" type="submit" value="Submit"/><input class="btn" type="reset" value="Reset"/></p>
+        </form>
+        </div>
+    </div>
+</body>  -->
